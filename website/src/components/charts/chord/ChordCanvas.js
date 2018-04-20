@@ -9,7 +9,7 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import MediaQuery from 'react-responsive'
-import { ResponsiveChordCanvas } from '@nivo/chord'
+import { ResponsiveChordCanvas } from '@juristat/nivo-chord'
 import ChartHeader from '../../ChartHeader'
 import ChartTabs from '../../ChartTabs'
 import ChordControls from './ChordControls'
@@ -98,7 +98,7 @@ export default class ChordCanvas extends Component {
             'ResponsiveChordCanvas',
             { keys, ...mappedSettings },
             {
-                pkg: '@nivo/calendar',
+                pkg: '@juristat/calendar',
                 dataKey: 'matrix',
             }
         )

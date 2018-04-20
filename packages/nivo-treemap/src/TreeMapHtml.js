@@ -8,8 +8,8 @@
  */
 import React from 'react'
 import { TransitionMotion, spring } from 'react-motion'
-import { colorMotionSpring, getInterpolatedColor } from '@nivo/core'
-import { Container } from '@nivo/core'
+import { colorMotionSpring, getInterpolatedColor } from '@juristat/nivo-core'
+import { Container } from '@juristat/nivo-core'
 import enhance from './enhance'
 import { getNodeHandlers } from './interactivity'
 import { nodeWillEnter, nodeWillLeave } from './motion'

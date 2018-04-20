@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import upperFirst from 'lodash/upperFirst'
 import uniq from 'lodash/uniq'
-import { defaultAnimate, defaultMotionStiffness, defaultMotionDamping } from '@nivo/core'
+import { defaultAnimate, defaultMotionStiffness, defaultMotionDamping } from '@juristat/nivo-core'
 
 export const defsProperties = scopes => [
     {

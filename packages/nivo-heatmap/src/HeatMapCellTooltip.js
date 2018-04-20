@@ -8,7 +8,7 @@
  */
 import React from 'react'
 import pure from 'recompose/pure'
-import { BasicTooltip } from '@nivo/core'
+import { BasicTooltip } from '@juristat/nivo-core'
 
 const HeatMapCellTooltip = ({ node, theme, format }) => (
     <BasicTooltip

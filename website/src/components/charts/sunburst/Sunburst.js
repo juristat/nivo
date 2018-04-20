@@ -11,7 +11,7 @@ import MediaQuery from 'react-responsive'
 import ChartHeader from '../../ChartHeader'
 import ChartTabs from '../../ChartTabs'
 import SunburstControls from './SunburstControls'
-import { ResponsiveSunburst } from '@nivo/sunburst'
+import { ResponsiveSunburst } from '@juristat/nivo-sunburst'
 import generateCode from '../../../lib/generateChartCode'
 import ComponentPropsDocumentation from '../../properties/ComponentPropsDocumentation'
 import properties from './props'
@@ -64,7 +64,9 @@ export default class Sunburst extends Component {
 
         const mappedSettings = propsMapper(settings)
 
-        const code = generateCode('ResponsiveSunburst', mappedSettings, { pkg: '@nivo/sunburst' })
+        const code = generateCode('ResponsiveSunburst', mappedSettings, {
+            pkg: '@juristat/sunburst',
+        })
 
         const header = (
             <ChartHeader chartClass="Sunburst" tags={['hierarchy', 'radial', 'circle']} />

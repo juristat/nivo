@@ -7,8 +7,8 @@
  * file that was distributed with this source code.
  */
 import PropTypes from 'prop-types'
-import { lineCurvePropType } from '@nivo/core'
-import { LegendPropShape } from '@nivo/legends'
+import { lineCurvePropType } from '@juristat/nivo-core'
+import { LegendPropShape } from '@juristat/nivo-legends'
 
 export const LinePropTypes = {
     // data

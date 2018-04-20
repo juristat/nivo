@@ -13,9 +13,9 @@ import withPropsOnChange from 'recompose/withPropsOnChange'
 import pure from 'recompose/pure'
 import PropTypes from 'prop-types'
 import { Motion } from 'react-motion'
-import { motionPropTypes } from '@nivo/core'
-import { getInheritedColorGenerator } from '@nivo/core'
-import { SmartMotion } from '@nivo/core'
+import { motionPropTypes } from '@juristat/nivo-core'
+import { getInheritedColorGenerator } from '@juristat/nivo-core'
+import { SmartMotion } from '@juristat/nivo-core'
 import { lineRadial } from 'd3-shape'
 
 const RadarShapes = ({

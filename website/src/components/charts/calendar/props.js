@@ -8,7 +8,7 @@
  */
 import React from 'react'
 import dedent from 'dedent-js'
-import { CalendarDefaultProps as defaults } from '@nivo/calendar'
+import { CalendarDefaultProps as defaults } from '@juristat/nivo-calendar'
 import { marginProperties } from '../../../lib/componentProperties'
 
 export default [

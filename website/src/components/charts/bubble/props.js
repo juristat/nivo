@@ -8,7 +8,7 @@
  */
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { BubbleDefaultProps as defaults } from '@nivo/circle-packing'
+import { BubbleDefaultProps as defaults } from '@juristat/nivo-circle-packing'
 import {
     marginProperties,
     motionProperties,

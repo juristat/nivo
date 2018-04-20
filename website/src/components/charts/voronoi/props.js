@@ -9,7 +9,7 @@
 import React from 'react'
 import dedent from 'dedent-js'
 import { marginProperties } from '../../../lib/componentProperties'
-import { VoronoiDefaultProps as defaults } from '@nivo/voronoi'
+import { VoronoiDefaultProps as defaults } from '@juristat/nivo-voronoi'
 
 export default [
     {

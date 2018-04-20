@@ -13,7 +13,7 @@ import ChartHeader from '../../ChartHeader'
 import ChartTabs from '../../ChartTabs'
 import generateCode from '../../../lib/generateChartCode'
 import CalendarControls from './CalendarControls'
-import { ResponsiveCalendar, CalendarDefaultProps } from '@nivo/calendar'
+import { ResponsiveCalendar, CalendarDefaultProps } from '@juristat/nivo-calendar'
 import ComponentPropsDocumentation from '../../properties/ComponentPropsDocumentation'
 import properties from './props'
 
@@ -80,7 +80,7 @@ export default class Calendar extends Component {
         const { settings } = this.state
 
         const code = generateCode('ResponsiveCalendar', settings, {
-            pkg: '@nivo/calendar',
+            pkg: '@juristat/calendar',
             defaults: CalendarDefaultProps,
         })
 

@@ -1,6 +1,6 @@
-# `@nivo/bar`
+# `@juristat/bar`
 
-[![version](https://img.shields.io/npm/v/@nivo/bar.svg?style=flat-square)](https://www.npmjs.com/package/@nivo/bar)
+[![version](https://img.shields.io/npm/v/@juristat/bar.svg?style=flat-square)](https://www.npmjs.com/package/@juristat/bar)
 
 ## Bar
 

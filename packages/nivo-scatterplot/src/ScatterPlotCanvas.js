@@ -7,11 +7,11 @@
  * file that was distributed with this source code.
  */
 import React, { Component } from 'react'
-import { renderAxesToCanvas, renderGridLinesToCanvas } from '@nivo/core'
-import { getRelativeCursor, isCursorInRect } from '@nivo/core'
-import { Container } from '@nivo/core'
-import { BasicTooltip } from '@nivo/core'
-import { renderLegendToCanvas } from '@nivo/legends'
+import { renderAxesToCanvas, renderGridLinesToCanvas } from '@juristat/nivo-core'
+import { getRelativeCursor, isCursorInRect } from '@juristat/nivo-core'
+import { Container } from '@juristat/nivo-core'
+import { BasicTooltip } from '@juristat/nivo-core'
+import { renderLegendToCanvas } from '@juristat/nivo-legends'
 import { ScatterPlotPropTypes } from './props'
 import enhance from './enhance'
 

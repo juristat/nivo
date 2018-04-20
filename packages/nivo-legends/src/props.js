@@ -31,7 +31,7 @@ import {
  *
  * @example
  * ```javascript
- * import { LegendPropShape } from '@nivo/legends'
+ * import { LegendPropShape } from '@juristat/nivo-legends'
  *
  * const customLegendPropType = PropTypes.shape({
  *     ...LegendPropShape,

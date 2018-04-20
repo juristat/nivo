@@ -7,8 +7,8 @@
  * file that was distributed with this source code.
  */
 import PropTypes from 'prop-types'
-import { noop } from '@nivo/core'
-import { treeMapTilePropType, defsPropTypes } from '@nivo/core'
+import { noop } from '@juristat/nivo-core'
+import { treeMapTilePropType, defsPropTypes } from '@juristat/nivo-core'
 import TreeMapNode from './TreeMapNode'
 import TreeMapHtmlNode from './TreeMapHtmlNode'
 

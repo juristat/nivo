@@ -7,7 +7,7 @@
  * file that was distributed with this source code.
  */
 import PropTypes from 'prop-types'
-import { LegendPropShape } from '@nivo/legends'
+import { LegendPropShape } from '@juristat/nivo-legends'
 
 export const PiePropTypes = {
     data: PropTypes.arrayOf(

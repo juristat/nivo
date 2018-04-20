@@ -9,7 +9,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import dedent from 'dedent-js'
-import { ChordDefaultProps as defaults } from '@nivo/chord'
+import { ChordDefaultProps as defaults } from '@juristat/nivo-chord'
 import { marginProperties, motionProperties } from '../../../lib/componentProperties'
 
 export default [

@@ -9,7 +9,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import dedent from 'dedent-js'
-import { SankeyDefaultProps as defaults, sankeyAlignmentPropKeys } from '@nivo/sankey'
+import { SankeyDefaultProps as defaults, sankeyAlignmentPropKeys } from '@juristat/nivo-sankey'
 import { marginProperties, motionProperties } from '../../../lib/componentProperties'
 
 const alignOptions = []

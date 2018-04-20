@@ -9,7 +9,7 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import MediaQuery from 'react-responsive'
-import { ResponsiveStream, StreamDefaultProps } from '@nivo/stream'
+import { ResponsiveStream, StreamDefaultProps } from '@juristat/nivo-stream'
 import ChartHeader from '../../ChartHeader'
 import ChartTabs from '../../ChartTabs'
 import StreamControls from './StreamControls'
@@ -54,7 +54,7 @@ export default class Stream extends Component {
         const mappedSettings = propsMapper(settings)
 
         const code = generateCode('ResponsiveStream', mappedSettings, {
-            pkg: '@nivo/stream',
+            pkg: '@juristat/stream',
             defaults: StreamDefaultProps,
         })
 

@@ -12,7 +12,7 @@ import withPropsOnChange from 'recompose/withPropsOnChange'
 import pure from 'recompose/pure'
 import { minBy, maxBy } from 'lodash'
 import { scaleQuantize } from 'd3-scale'
-import { withTheme, withDimensions } from '@nivo/core'
+import { withTheme, withDimensions } from '@juristat/nivo-core'
 import { CalendarDefaultProps } from './props'
 
 export default Component =>

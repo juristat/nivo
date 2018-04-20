@@ -10,7 +10,7 @@ import React, { Component } from 'react'
 import omit from 'lodash/omit'
 import { Link } from 'react-router-dom'
 import MediaQuery from 'react-responsive'
-import { ResponsiveLine, LineDefaultProps } from '@nivo/line'
+import { ResponsiveLine, LineDefaultProps } from '@juristat/nivo-line'
 import ChartHeader from '../../ChartHeader'
 import ChartTabs from '../../ChartTabs'
 import LineControls from './LineControls'
@@ -51,7 +51,7 @@ export default class Line extends Component {
         const mappedSettings = propsMapper(settings)
 
         const code = generateCode('ResponsiveLine', mappedSettings, {
-            pkg: '@nivo/line',
+            pkg: '@juristat/line',
             defaults: LineDefaultProps,
         })
 

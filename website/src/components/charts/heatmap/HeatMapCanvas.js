@@ -9,7 +9,7 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import MediaQuery from 'react-responsive'
-import { ResponsiveHeatMapCanvas } from '@nivo/heatmap'
+import { ResponsiveHeatMapCanvas } from '@juristat/nivo-heatmap'
 import isFunction from 'lodash/isFunction'
 import ChartHeader from '../../ChartHeader'
 import ChartTabs from '../../ChartTabs'
@@ -136,7 +136,7 @@ export default class HeatMap extends Component {
                     ? 'Custom(props) => (…)'
                     : mappedSettings.cellShape,
             }),
-            { pkg: '@nivo/heatmap ' }
+            { pkg: '@juristat/heatmap ' }
         )
 
         const header = (

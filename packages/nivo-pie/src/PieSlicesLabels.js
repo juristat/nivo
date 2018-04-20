@@ -10,7 +10,7 @@ import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import { merge } from 'lodash'
 import { Motion, TransitionMotion, spring } from 'react-motion'
-import { midAngle, positionFromAngle } from '@nivo/core'
+import { midAngle, positionFromAngle } from '@juristat/nivo-core'
 
 const sliceStyle = {
     pointerEvents: 'none',

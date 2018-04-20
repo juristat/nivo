@@ -8,12 +8,12 @@
  */
 import React, { Component } from 'react'
 import { partial } from 'lodash'
-import { renderAxesToCanvas } from '@nivo/core'
-import { getRelativeCursor, isCursorInRect } from '@nivo/core'
+import { renderAxesToCanvas } from '@juristat/nivo-core'
+import { getRelativeCursor, isCursorInRect } from '@juristat/nivo-core'
 import { renderRect, renderCircle } from './canvas'
 import computeNodes from './computeNodes'
 import HeatMapCellTooltip from './HeatMapCellTooltip'
-import { Container } from '@nivo/core'
+import { Container } from '@juristat/nivo-core'
 import { HeatMapPropTypes } from './props'
 import enhance from './enhance'
 

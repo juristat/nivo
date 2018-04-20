@@ -11,8 +11,8 @@ import defaultProps from 'recompose/defaultProps'
 import withState from 'recompose/withState'
 import withPropsOnChange from 'recompose/withPropsOnChange'
 import pure from 'recompose/pure'
-import { getLabelGenerator, getInheritedColorGenerator } from '@nivo/core'
-import { withColors, withTheme, withDimensions, withMotion } from '@nivo/core'
+import { getLabelGenerator, getInheritedColorGenerator } from '@juristat/nivo-core'
+import { withColors, withTheme, withDimensions, withMotion } from '@juristat/nivo-core'
 import { SankeyDefaultProps } from './props'
 
 export default Component =>

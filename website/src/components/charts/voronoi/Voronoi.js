@@ -8,7 +8,7 @@
  */
 import React, { Component } from 'react'
 import MediaQuery from 'react-responsive'
-import { ResponsiveVoronoi, VoronoiDefaultProps } from '@nivo/voronoi'
+import { ResponsiveVoronoi, VoronoiDefaultProps } from '@juristat/nivo-voronoi'
 import ChartHeader from '../../ChartHeader'
 import ChartTabs from '../../ChartTabs'
 import VoronoiControls from './VoronoiControls'
@@ -52,7 +52,7 @@ export default class Voronoi extends Component {
         const { settings } = this.state
 
         const code = generateCode('ResponsiveVoronoi', settings, {
-            pkg: '@nivo/voronoi',
+            pkg: '@juristat/voronoi',
             defaults: VoronoiDefaultProps,
         })
 

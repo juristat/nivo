@@ -10,8 +10,8 @@ import React, { Component } from 'react'
 import cloneDeep from 'lodash/cloneDeep'
 import { Link } from 'react-router-dom'
 import MediaQuery from 'react-responsive'
-import { ResponsiveBubble, BubbleDefaultProps } from '@nivo/circle-packing'
-import { patternLinesDef } from '@nivo/core'
+import { ResponsiveBubble, BubbleDefaultProps } from '@juristat/nivo-circle-packing'
+import { patternLinesDef } from '@juristat/nivo-core'
 import ChartHeader from '../../ChartHeader'
 import ChartTabs from '../../ChartTabs'
 import generateCode from '../../../lib/generateChartCode'
@@ -87,7 +87,7 @@ export default class Bubble extends Component {
         const mappedSettings = propsMapper(settings)
 
         const code = generateCode('ResponsiveBubble', mappedSettings, {
-            pkg: '@nivo/circle-packing',
+            pkg: '@juristat/circle-packing',
             defaults: BubbleDefaultProps,
         })
 

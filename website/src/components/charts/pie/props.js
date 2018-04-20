@@ -7,7 +7,7 @@
  * file that was distributed with this source code.
  */
 import React from 'react'
-import { PieDefaultProps as defaults } from '@nivo/pie'
+import { PieDefaultProps as defaults } from '@juristat/nivo-pie'
 import { marginProperties } from '../../../lib/componentProperties'
 
 export default [

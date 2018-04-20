@@ -9,7 +9,7 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import { Motion, TransitionMotion, spring } from 'react-motion'
-import { midAngle, positionFromAngle } from '@nivo/core'
+import { midAngle, positionFromAngle } from '@juristat/nivo-core'
 import { line } from 'd3-shape'
 
 const lineGenerator = line()

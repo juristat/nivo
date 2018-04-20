@@ -9,7 +9,7 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import MediaQuery from 'react-responsive'
-import { ResponsiveSankey } from '@nivo/sankey'
+import { ResponsiveSankey } from '@juristat/nivo-sankey'
 import ChartHeader from '../../ChartHeader'
 import ChartTabs from '../../ChartTabs'
 import SankeyControls from './SankeyControls'
@@ -94,7 +94,7 @@ export default class Sankey extends Component {
 
         const mappedSettings = propsMapper(settings)
 
-        const code = generateCode('ResponsiveSankey', mappedSettings, { pkg: '@nivo/sankey' })
+        const code = generateCode('ResponsiveSankey', mappedSettings, { pkg: '@juristat/sankey' })
 
         const header = <ChartHeader chartClass="Sankey" tags={['relational', 'flow', 'api']} />
 

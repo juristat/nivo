@@ -1,8 +1,8 @@
 import React from 'react'
-import { linearGradientDef } from '@nivo/core'
-import { ResponsiveBar } from '@nivo/bar'
-import { ResponsiveStream } from '@nivo/stream'
-import { ResponsiveTreeMap } from '@nivo/treemap'
+import { linearGradientDef } from '@juristat/nivo-core'
+import { ResponsiveBar } from '@juristat/nivo-bar'
+import { ResponsiveStream } from '@juristat/nivo-stream'
+import { ResponsiveTreeMap } from '@juristat/nivo-treemap'
 import { generateCountriesData } from '@nivo/generators'
 
 const GradientsIllustrations = () => (

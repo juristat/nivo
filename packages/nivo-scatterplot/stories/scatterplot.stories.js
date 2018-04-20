@@ -150,7 +150,7 @@ const stories = storiesOf('ScatterPlot', module)
 
 const importStatement = `
 ~~~javascript
-import { ScatterPlot } from '@nivo/scatterplot'
+import { ScatterPlot } from '@juristat/nivo-scatterplot'
 ~~~
 `
 

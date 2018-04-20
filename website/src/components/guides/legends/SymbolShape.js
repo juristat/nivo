@@ -1,5 +1,5 @@
 import React from 'react'
-import { LegendSvgItem, DIRECTION_LEFT_TO_RIGHT } from '@nivo/legends'
+import { LegendSvgItem, DIRECTION_LEFT_TO_RIGHT } from '@juristat/nivo-legends'
 
 const shapes = ['square', 'circle', 'triangle', 'diamond']
 

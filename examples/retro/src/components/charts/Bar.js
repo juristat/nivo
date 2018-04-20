@@ -1,5 +1,5 @@
 import React from 'react'
-import { ResponsiveBar } from '@nivo/bar'
+import { ResponsiveBar } from '@juristat/nivo-bar'
 import { generateCountriesData } from '@nivo/generators'
 import { colors } from '../../constants'
 

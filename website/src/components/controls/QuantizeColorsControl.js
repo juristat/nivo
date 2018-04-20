@@ -8,7 +8,7 @@
  */
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
-import { quantizeColorScales } from '@nivo/core'
+import { quantizeColorScales } from '@juristat/nivo-core'
 import Select from 'react-select'
 import ColorsControlItem from './ColorsControlItem'
 

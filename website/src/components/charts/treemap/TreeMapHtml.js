@@ -9,7 +9,7 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import MediaQuery from 'react-responsive'
-import { ResponsiveTreeMapHtml, TreeMapDefaultProps } from '@nivo/treemap'
+import { ResponsiveTreeMapHtml, TreeMapDefaultProps } from '@juristat/nivo-treemap'
 import ChartHeader from '../../ChartHeader'
 import TreeMapControls from './TreeMapControls'
 import generateCode from '../../../lib/generateChartCode'
@@ -86,7 +86,7 @@ export default class TreeMapHtml extends Component {
         const mappedSettings = propsMapper(settings)
 
         const code = generateCode('ResponsiveTreeMapHtml', mappedSettings, {
-            pkg: '@nivo/treemap',
+            pkg: '@juristat/treemap',
             defaults: TreeMapDefaultProps,
         })
 

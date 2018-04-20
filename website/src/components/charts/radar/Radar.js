@@ -10,7 +10,7 @@ import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import MediaQuery from 'react-responsive'
 import { Link } from 'react-router-dom'
-import { ResponsiveRadar } from '@nivo/radar'
+import { ResponsiveRadar } from '@juristat/nivo-radar'
 import ChartHeader from '../../ChartHeader'
 import ChartTabs from '../../ChartTabs'
 import RadarControls from './RadarControls'
@@ -100,7 +100,7 @@ export default class Radar extends Component {
                 indexBy,
                 ...mappedSettings,
             },
-            { pkg: '@nivo/radar' }
+            { pkg: '@juristat/radar' }
         )
 
         const header = (

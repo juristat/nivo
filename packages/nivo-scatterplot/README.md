@@ -1,6 +1,6 @@
-# `@nivo/scatterplot`
+# `@juristat/scatterplot`
 
-[![version](https://img.shields.io/npm/v/@nivo/scatterplot.svg?style=flat-square)](https://www.npmjs.com/package/@nivo/scatterplot)
+[![version](https://img.shields.io/npm/v/@juristat/scatterplot.svg?style=flat-square)](https://www.npmjs.com/package/@juristat/scatterplot)
 
 ## ScatterPlot
 

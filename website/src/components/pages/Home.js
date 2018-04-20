@@ -23,18 +23,18 @@ import {
     generateSankeyData,
     generateChordData,
 } from '@nivo/generators'
-import { ResponsiveSankey } from '@nivo/sankey'
-import { ResponsiveVoronoi } from '@nivo/voronoi'
-import { ResponsiveRadar } from '@nivo/radar'
-import { ResponsiveChord } from '@nivo/chord'
-import { ResponsiveCalendar } from '@nivo/calendar'
-import { ResponsiveBubble } from '@nivo/circle-packing'
-import { ResponsiveSunburst } from '@nivo/sunburst'
-import { ResponsivePie } from '@nivo/pie'
-import { ResponsiveTreeMap } from '@nivo/treemap'
-import { ResponsiveStream } from '@nivo/stream'
-import { ResponsiveBar } from '@nivo/bar'
-import { ResponsiveLine } from '@nivo/line'
+import { ResponsiveSankey } from '@juristat/nivo-sankey'
+import { ResponsiveVoronoi } from '@juristat/nivo-voronoi'
+import { ResponsiveRadar } from '@juristat/nivo-radar'
+import { ResponsiveChord } from '@juristat/nivo-chord'
+import { ResponsiveCalendar } from '@juristat/nivo-calendar'
+import { ResponsiveBubble } from '@juristat/nivo-circle-packing'
+import { ResponsiveSunburst } from '@juristat/nivo-sunburst'
+import { ResponsivePie } from '@juristat/nivo-pie'
+import { ResponsiveTreeMap } from '@juristat/nivo-treemap'
+import { ResponsiveStream } from '@juristat/nivo-stream'
+import { ResponsiveBar } from '@juristat/nivo-bar'
+import { ResponsiveLine } from '@juristat/nivo-line'
 
 const colors = redColorRange
 

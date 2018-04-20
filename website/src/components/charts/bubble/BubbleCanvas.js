@@ -12,7 +12,7 @@ import range from 'lodash/range'
 import random from 'lodash/random'
 import { Link } from 'react-router-dom'
 import MediaQuery from 'react-responsive'
-import { ResponsiveBubbleCanvas, BubbleCanvasDefaultProps } from '@nivo/circle-packing'
+import { ResponsiveBubbleCanvas, BubbleCanvasDefaultProps } from '@juristat/nivo-circle-packing'
 import ChartHeader from '../../ChartHeader'
 import ChartTabs from '../../ChartTabs'
 import generateCode from '../../../lib/generateChartCode'
@@ -94,7 +94,7 @@ export default class BubbleCanvas extends Component {
         const mappedSettings = propsMapper(settings)
 
         const code = generateCode('ResponsiveBubbleCanvas', mappedSettings, {
-            pkg: '@nivo/circle-packing',
+            pkg: '@juristat/circle-packing',
             defaults: BubbleCanvasDefaultProps,
         })
 

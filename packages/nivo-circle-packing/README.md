@@ -1,6 +1,6 @@
-# `@nivo/circle-packing`
+# `@juristat/circle-packing`
 
-[![version](https://img.shields.io/npm/v/@nivo/circle-packing.svg?style=flat-square)](https://www.npmjs.com/package/@nivo/circle-packing)
+[![version](https://img.shields.io/npm/v/@juristat/circle-packing.svg?style=flat-square)](https://www.npmjs.com/package/@juristat/circle-packing)
 
 ## Bubble
 

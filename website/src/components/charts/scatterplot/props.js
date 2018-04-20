@@ -7,7 +7,7 @@
  * file that was distributed with this source code.
  */
 import React from 'react'
-import { ScatterPlotDefaultProps as defaults } from '@nivo/scatterplot'
+import { ScatterPlotDefaultProps as defaults } from '@juristat/nivo-scatterplot'
 import {
     marginProperties,
     axesProperties,

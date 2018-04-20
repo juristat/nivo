@@ -1,6 +1,6 @@
-# `@nivo/heatmap`
+# `@juristat/heatmap`
 
-[![version](https://img.shields.io/npm/v/@nivo/heatmap.svg?style=flat-square)](https://www.npmjs.com/package/@nivo/heatmap)
+[![version](https://img.shields.io/npm/v/@juristat/heatmap.svg?style=flat-square)](https://www.npmjs.com/package/@juristat/heatmap)
 
 ## HeatMap
 

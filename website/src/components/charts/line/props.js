@@ -8,8 +8,8 @@
  */
 import React from 'react'
 import dedent from 'dedent-js'
-import { lineCurvePropKeys, DotsItemDefaultProps as dotDefaults } from '@nivo/core'
-import { LineDefaultProps as defaults } from '@nivo/line'
+import { lineCurvePropKeys, DotsItemDefaultProps as dotDefaults } from '@juristat/nivo-core'
+import { LineDefaultProps as defaults } from '@juristat/nivo-line'
 import {
     marginProperties,
     axesProperties,

@@ -15,8 +15,8 @@ import withState from 'recompose/withState'
 import withPropsOnChange from 'recompose/withPropsOnChange'
 import withHandlers from 'recompose/withHandlers'
 import pure from 'recompose/pure'
-import { positionFromAngle } from '@nivo/core'
-import { TableTooltip, Chip } from '@nivo/core'
+import { positionFromAngle } from '@juristat/nivo-core'
+import { TableTooltip, Chip } from '@juristat/nivo-core'
 
 const RadarTooltipItem = ({ path, tipX, tipY, showTooltip, hideTooltip, isHover }) => (
     <g>

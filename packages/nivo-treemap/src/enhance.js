@@ -12,11 +12,17 @@ import compose from 'recompose/compose'
 import defaultProps from 'recompose/defaultProps'
 import withPropsOnChange from 'recompose/withPropsOnChange'
 import pure from 'recompose/pure'
-import { withHierarchy, withDimensions, withTheme, withMotion, withColors } from '@nivo/core'
-import { getAccessorFor, getLabelGenerator } from '@nivo/core'
-import { treeMapTileFromProp } from '@nivo/core'
-import { getInheritedColorGenerator } from '@nivo/core'
-import { bindDefs } from '@nivo/core'
+import {
+    withHierarchy,
+    withDimensions,
+    withTheme,
+    withMotion,
+    withColors,
+} from '@juristat/nivo-core'
+import { getAccessorFor, getLabelGenerator } from '@juristat/nivo-core'
+import { treeMapTileFromProp } from '@juristat/nivo-core'
+import { getInheritedColorGenerator } from '@juristat/nivo-core'
+import { bindDefs } from '@juristat/nivo-core'
 import * as props from './props'
 
 const computeNodePath = (node, getIdentity) =>

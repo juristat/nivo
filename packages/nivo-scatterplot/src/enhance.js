@@ -12,12 +12,16 @@ import compose from 'recompose/compose'
 import defaultProps from 'recompose/defaultProps'
 import withPropsOnChange from 'recompose/withPropsOnChange'
 import pure from 'recompose/pure'
-import { withTheme, withColors, withDimensions, withMotion } from '@nivo/core'
+import { withTheme, withColors, withDimensions, withMotion } from '@juristat/nivo-core'
 import { ScatterPlotDefaultProps } from './props'
 
 export const computeScales = ({ data, width, height, scales: _scales }) => {
     const scales = _scales.map(scaleConfig => {
-        const { id, axis, domain: [min, max] } = scaleConfig
+        const {
+            id,
+            axis,
+            domain: [min, max],
+        } = scaleConfig
 
         let minValue = min
         let maxValue = max

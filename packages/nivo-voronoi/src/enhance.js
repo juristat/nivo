@@ -10,7 +10,7 @@ import React from 'react'
 import compose from 'recompose/compose'
 import defaultProps from 'recompose/defaultProps'
 import pure from 'recompose/pure'
-import { withTheme, withDimensions } from '@nivo/core'
+import { withTheme, withDimensions } from '@juristat/nivo-core'
 import { VoronoiDefaultProps } from './props'
 
 export default Component =>

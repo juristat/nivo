@@ -9,8 +9,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { TransitionMotion, spring } from 'react-motion'
-import { midAngle, getPolarLabelProps } from '@nivo/core'
-import { motionPropTypes } from '@nivo/core'
+import { midAngle, getPolarLabelProps } from '@juristat/nivo-core'
+import { motionPropTypes } from '@juristat/nivo-core'
 
 const ChordLabels = ({
     arcs,

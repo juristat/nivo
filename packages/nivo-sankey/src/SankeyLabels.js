@@ -10,7 +10,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import pure from 'recompose/pure'
 import { TransitionMotion, spring } from 'react-motion'
-import { colorMotionSpring, getInterpolatedColor, motionPropTypes } from '@nivo/core'
+import { colorMotionSpring, getInterpolatedColor, motionPropTypes } from '@juristat/nivo-core'
 
 const SankeyLabels = ({
     nodes,

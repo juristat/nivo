@@ -9,8 +9,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import pure from 'recompose/pure'
-import { motionPropTypes } from '@nivo/core'
-import { SmartMotion } from '@nivo/core'
+import { motionPropTypes } from '@juristat/nivo-core'
+import { SmartMotion } from '@juristat/nivo-core'
 
 const LineLines = ({
     lines,

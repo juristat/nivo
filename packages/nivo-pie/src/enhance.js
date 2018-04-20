@@ -9,7 +9,7 @@
 import compose from 'recompose/compose'
 import defaultProps from 'recompose/defaultProps'
 import pure from 'recompose/pure'
-import { withTheme, withDimensions, withColors } from '@nivo/core'
+import { withTheme, withDimensions, withColors } from '@juristat/nivo-core'
 import { PieDefaultProps } from './props'
 
 export default Component =>

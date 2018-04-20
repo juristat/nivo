@@ -13,9 +13,9 @@ import withPropsOnChange from 'recompose/withPropsOnChange'
 import withState from 'recompose/withState'
 import pure from 'recompose/pure'
 import { scaleOrdinal, scaleLinear } from 'd3-scale'
-import { withTheme, withDimensions, withMotion } from '@nivo/core'
-import { getInheritedColorGenerator, guessQuantizeColorScale } from '@nivo/core'
-import { getAccessorFor } from '@nivo/core'
+import { withTheme, withDimensions, withMotion } from '@juristat/nivo-core'
+import { getInheritedColorGenerator, guessQuantizeColorScale } from '@juristat/nivo-core'
+import { getAccessorFor } from '@juristat/nivo-core'
 import { HeatMapDefaultProps } from './props'
 
 const computeX = (column, cellWidth, padding) => {

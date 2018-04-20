@@ -8,13 +8,13 @@
  */
 import React from 'react'
 import { timeFormat } from 'd3-time-format'
-import { BoxLegendSvg } from '@nivo/legends'
+import { BoxLegendSvg } from '@juristat/nivo-legends'
 import computeCalendar from './computeCalendar'
 import { CalendarPropTypes } from './props'
 import { DIRECTION_HORIZONTAL } from './constants'
 import CalendarDay from './CalendarDay'
 import CalendarMonthPath from './CalendarMonthPath'
-import { Container, SvgWrapper } from '@nivo/core'
+import { Container, SvgWrapper } from '@juristat/nivo-core'
 import enhance from './enhance'
 
 const monthLegendFormat = timeFormat('%b')

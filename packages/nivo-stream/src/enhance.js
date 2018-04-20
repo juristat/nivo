@@ -14,9 +14,9 @@ import compose from 'recompose/compose'
 import defaultProps from 'recompose/defaultProps'
 import pure from 'recompose/pure'
 import withPropsOnChange from 'recompose/withPropsOnChange'
-import { stackOrderFromProp, stackOffsetFromProp } from '@nivo/core'
-import { withTheme, withCurve, withDimensions, withMotion } from '@nivo/core'
-import { getColorRange, getInheritedColorGenerator } from '@nivo/core'
+import { stackOrderFromProp, stackOffsetFromProp } from '@juristat/nivo-core'
+import { withTheme, withCurve, withDimensions, withMotion } from '@juristat/nivo-core'
+import { getColorRange, getInheritedColorGenerator } from '@juristat/nivo-core'
 import { StreamDefaultProps } from './props'
 
 const stackMin = layers => min(layers.reduce((acc, layer) => [...acc, ...layer.map(d => d[0])], []))

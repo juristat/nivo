@@ -105,7 +105,7 @@ endef
 ########################################################################################################################
 
 package-lint-%: ##@1 packages run eslint on package
-	@echo "${YELLOW}Running eslint on package ${WHITE}@nivo/${*}${RESET}"
+	@echo "${YELLOW}Running eslint on package ${WHITE}@juristat/${*}${RESET}"
 	@./node_modules/.bin/eslint ./packages/nivo-${*}/{src,tests}
 
 packages-lint: ##@1 packages run eslint on all packages
@@ -138,7 +138,7 @@ packages-test-cover: ##@1 packages run tests for all packages with code coverage
 	@./node_modules/.bin/jest --coverage --setupTestFrameworkScriptFile=raf/polyfill ./packages/*/tests
 
 package-build-%: ##@1 packages build a package
-	@echo "${YELLOW}Building package ${WHITE}@nivo/${*}${RESET}"
+	@echo "${YELLOW}Building package ${WHITE}@juristat/${*}${RESET}"
 	@export PACKAGE=${*}; ./node_modules/.bin/rollup -c conf/rollup.config.js
 
 packages-build: ##@1 packages build all packages
@@ -165,13 +165,13 @@ packages-publish-next: ##@1 packages publish all packages for @next npm tag
 	@./node_modules/.bin/lerna publish ---exact --npm-tag=next
 
 package-watch-%: ##@1 packages build package (es flavor) on change, eg. `package-build-watch-bar`
-	@echo "${YELLOW}Running build watcher for package ${WHITE}@nivo/${*}${RESET}"
+	@echo "${YELLOW}Running build watcher for package ${WHITE}@juristat/${*}${RESET}"
 	@export PACKAGE=${*}; ./node_modules/.bin/rollup -c conf/rollup.config.js -w
 
 package-dev-%: ##@1 packages setup package for development, link to website, run watcher
 	@echo "${YELLOW}Preparing package ${WHITE}${*}${YELLOW} for development${RESET}"
 	@cd packages/nivo-${*} && yarn link
-	@cd website && yarn link @nivo/${*}
+	@cd website && yarn link @juristat/${*}
 	@make package-watch-${*}
 
 ########################################################################################################################
@@ -212,7 +212,7 @@ website-links-rm: ##@2 website unlink all linked packages
 	@echo "${YELLOW}Unlinking all packages for ${WHITE}website${RESET}"
 	@cd website; \
     find node_modules node_modules/\@* -depth 1 -type l -print | awk -F/ '{print $$(NF)}' | while read MODULE; do \
-        yarn unlink "@nivo/$${MODULE}"; \
+        yarn unlink "@juristat/$${MODULE}"; \
     done
 	@make website-install
 

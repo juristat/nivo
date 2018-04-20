@@ -14,10 +14,10 @@ import { format as d3Format } from 'd3-format'
 import compose from 'recompose/compose'
 import withPropsOnChange from 'recompose/withPropsOnChange'
 import pure from 'recompose/pure'
-import { colorMotionSpring, getInterpolatedColor } from '@nivo/core'
-import { midAngle } from '@nivo/core'
-import { TableTooltip, Chip } from '@nivo/core'
-import { motionPropTypes } from '@nivo/core'
+import { colorMotionSpring, getInterpolatedColor } from '@juristat/nivo-core'
+import { midAngle } from '@juristat/nivo-core'
+import { TableTooltip, Chip } from '@juristat/nivo-core'
+import { motionPropTypes } from '@juristat/nivo-core'
 
 /**
  * Used to get ribbon angles, instead of using source and target arcs,

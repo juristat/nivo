@@ -9,7 +9,7 @@
 
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
-import { defaultCategoricalColors } from '@nivo/core'
+import { defaultCategoricalColors } from '@juristat/nivo-core'
 import Select from 'react-select'
 import ColorsControlItem from './ColorsControlItem'
 import { schemeCategory10, schemeCategory20, schemeCategory20b, schemeCategory20c } from 'd3-scale'

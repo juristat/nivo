@@ -2,8 +2,8 @@ import React from 'react'
 
 const PatternsExample = () => (
     <pre className="code-block guide__code">
-        <span>{`import { patternDotsDef, patternSquaresDef } from '@nivo/core'\n`}</span>
-        <span>{`import { Stream } from '@nivo/stream'\n\n`}</span>
+        <span>{`import { patternDotsDef, patternSquaresDef } from '@juristat/nivo-core'\n`}</span>
+        <span>{`import { Stream } from '@juristat/nivo-stream'\n\n`}</span>
         <span>{`const MyChart = () => (\n`}</span>
         <span>{`  <Stream\n`}</span>
         {`    data={[`}

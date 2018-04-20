@@ -10,12 +10,12 @@ export default {
         file: `./packages/nivo-${pkg}/cjs/nivo-${pkg}.js`,
         format: 'cjs'
     },
-    name: '@nivo/axes',
+    name: '@juristat/axes',
     external: [
-        '@nivo/axes',
-        '@nivo/core',
-        '@nivo/legends',
-        '@nivo/scales',
+        '@juristat/axes',
+        '@juristat/core',
+        '@juristat/legends',
+        '@juristat/scales',
         'd3-chord',
         'd3-format',
         'd3-scale',

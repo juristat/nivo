@@ -2,52 +2,52 @@
 # yarn lockfile v1
 
 
-"@nivo/bar@0.33.0":
+"@juristat/bar@0.33.0":
   version "0.33.0"
-  resolved "https://registry.yarnpkg.com/@nivo/bar/-/bar-0.33.0.tgz#95e60871b381fc14f4980ba22569b2fd7b0ac6b4"
+  resolved "https://registry.yarnpkg.com/@juristat/bar/-/bar-0.33.0.tgz#95e60871b381fc14f4980ba22569b2fd7b0ac6b4"
   dependencies:
-    "@nivo/core" "0.33.0"
-    "@nivo/legends" "0.33.0"
+    "@juristat/core" "0.33.0"
+    "@juristat/legends" "0.33.0"
     d3-scale "^1.0.6"
     d3-shape "^1.2.0"
     react-motion "^0.5.2"
     recompose "^0.26.0"
 
-"@nivo/calendar@0.33.0":
+"@juristat/calendar@0.33.0":
   version "0.33.0"
-  resolved "https://registry.yarnpkg.com/@nivo/calendar/-/calendar-0.33.0.tgz#32fb3fdcbbf1881da4beb63cb993f0b4fd132cef"
+  resolved "https://registry.yarnpkg.com/@juristat/calendar/-/calendar-0.33.0.tgz#32fb3fdcbbf1881da4beb63cb993f0b4fd132cef"
   dependencies:
-    "@nivo/core" "0.33.0"
-    "@nivo/legends" "0.33.0"
+    "@juristat/core" "0.33.0"
+    "@juristat/legends" "0.33.0"
     d3-scale "^1.0.6"
     d3-time "^1.0.7"
     d3-time-format "^2.0.5"
     recompose "^0.26.0"
 
-"@nivo/chord@0.33.0":
+"@juristat/chord@0.33.0":
   version "0.33.0"
-  resolved "https://registry.yarnpkg.com/@nivo/chord/-/chord-0.33.0.tgz#b9b09c11b7275270f1f6831893790a87087a5eee"
+  resolved "https://registry.yarnpkg.com/@juristat/chord/-/chord-0.33.0.tgz#b9b09c11b7275270f1f6831893790a87087a5eee"
   dependencies:
-    "@nivo/core" "0.33.0"
-    "@nivo/legends" "0.33.0"
+    "@juristat/core" "0.33.0"
+    "@juristat/legends" "0.33.0"
     d3-chord "^1.0.4"
     d3-format "^1.2.0"
     d3-shape "^1.2.0"
     react-motion "^0.5.2"
     recompose "^0.26.0"
 
-"@nivo/circle-packing@0.33.0":
+"@juristat/circle-packing@0.33.0":
   version "0.33.0"
-  resolved "https://registry.yarnpkg.com/@nivo/circle-packing/-/circle-packing-0.33.0.tgz#495bf93bc01e205755855c04b79fc057c430381d"
+  resolved "https://registry.yarnpkg.com/@juristat/circle-packing/-/circle-packing-0.33.0.tgz#495bf93bc01e205755855c04b79fc057c430381d"
   dependencies:
-    "@nivo/core" "0.33.0"
+    "@juristat/core" "0.33.0"
     d3-hierarchy "^1.1.5"
     react-motion "^0.5.2"
     recompose "^0.26.0"
 
-"@nivo/core@0.33.0":
+"@juristat/core@0.33.0":
   version "0.33.0"
-  resolved "https://registry.yarnpkg.com/@nivo/core/-/core-0.33.0.tgz#d4797275f8bf28f8e9fcc6f720d78cc354561050"
+  resolved "https://registry.yarnpkg.com/@juristat/core/-/core-0.33.0.tgz#d4797275f8bf28f8e9fcc6f720d78cc354561050"
   dependencies:
     d3-color "^1.0.3"
     d3-format "^1.2.0"
@@ -70,111 +70,111 @@
     lodash.range "^3.2.0"
     lodash.shuffle "^4.2.0"
 
-"@nivo/heatmap@0.33.0":
+"@juristat/heatmap@0.33.0":
   version "0.33.0"
-  resolved "https://registry.yarnpkg.com/@nivo/heatmap/-/heatmap-0.33.0.tgz#78e6395a200f1c5e78d19f8c6d8b5581ec563f33"
+  resolved "https://registry.yarnpkg.com/@juristat/heatmap/-/heatmap-0.33.0.tgz#78e6395a200f1c5e78d19f8c6d8b5581ec563f33"
   dependencies:
-    "@nivo/core" "0.33.0"
+    "@juristat/core" "0.33.0"
     d3-scale "^1.0.6"
     react-motion "^0.5.2"
     recompose "^0.26.0"
 
-"@nivo/legends@0.33.0":
+"@juristat/legends@0.33.0":
   version "0.33.0"
-  resolved "https://registry.yarnpkg.com/@nivo/legends/-/legends-0.33.0.tgz#8eb5a228b2cfb81dfc464ddb854c266768f039c2"
+  resolved "https://registry.yarnpkg.com/@juristat/legends/-/legends-0.33.0.tgz#8eb5a228b2cfb81dfc464ddb854c266768f039c2"
   dependencies:
     recompose "^0.26.0"
 
-"@nivo/line@0.33.0":
+"@juristat/line@0.33.0":
   version "0.33.0"
-  resolved "https://registry.yarnpkg.com/@nivo/line/-/line-0.33.0.tgz#19336aff35895b674948573c49c734c40ab923ee"
+  resolved "https://registry.yarnpkg.com/@juristat/line/-/line-0.33.0.tgz#19336aff35895b674948573c49c734c40ab923ee"
   dependencies:
-    "@nivo/core" "0.33.0"
-    "@nivo/legends" "0.33.0"
+    "@juristat/core" "0.33.0"
+    "@juristat/legends" "0.33.0"
     d3-format "^1.2.0"
     d3-scale "^1.0.6"
     d3-shape "^1.2.0"
     react-motion "^0.5.2"
     recompose "^0.26.0"
 
-"@nivo/pie@0.33.0":
+"@juristat/pie@0.33.0":
   version "0.33.0"
-  resolved "https://registry.yarnpkg.com/@nivo/pie/-/pie-0.33.0.tgz#7247569875c237aa2c165ba074eb953c52ab42fd"
+  resolved "https://registry.yarnpkg.com/@juristat/pie/-/pie-0.33.0.tgz#7247569875c237aa2c165ba074eb953c52ab42fd"
   dependencies:
-    "@nivo/core" "0.33.0"
-    "@nivo/legends" "0.33.0"
+    "@juristat/core" "0.33.0"
+    "@juristat/legends" "0.33.0"
     d3-shape "^1.2.0"
     react-motion "^0.5.2"
     recompose "^0.26.0"
 
-"@nivo/radar@0.33.0":
+"@juristat/radar@0.33.0":
   version "0.33.0"
-  resolved "https://registry.yarnpkg.com/@nivo/radar/-/radar-0.33.0.tgz#21914667a874a3c50fcc32e1880f58d3c00e7f2c"
+  resolved "https://registry.yarnpkg.com/@juristat/radar/-/radar-0.33.0.tgz#21914667a874a3c50fcc32e1880f58d3c00e7f2c"
   dependencies:
-    "@nivo/core" "0.33.0"
-    "@nivo/legends" "0.33.0"
+    "@juristat/core" "0.33.0"
+    "@juristat/legends" "0.33.0"
     d3-format "^1.2.0"
     d3-scale "^1.0.6"
     d3-shape "^1.2.0"
     react-motion "^0.5.2"
     recompose "^0.26.0"
 
-"@nivo/sankey@0.33.0":
+"@juristat/sankey@0.33.0":
   version "0.33.0"
-  resolved "https://registry.yarnpkg.com/@nivo/sankey/-/sankey-0.33.0.tgz#067dd8ce5dccbdd5533cc50f9bd36b112624ecb0"
+  resolved "https://registry.yarnpkg.com/@juristat/sankey/-/sankey-0.33.0.tgz#067dd8ce5dccbdd5533cc50f9bd36b112624ecb0"
   dependencies:
-    "@nivo/core" "0.33.0"
-    "@nivo/legends" "0.33.0"
+    "@juristat/core" "0.33.0"
+    "@juristat/legends" "0.33.0"
     d3-sankey "^0.7.1"
     react-motion "^0.5.2"
     recompose "^0.26.0"
 
-"@nivo/scatterplot@0.33.0":
+"@juristat/scatterplot@0.33.0":
   version "0.33.0"
-  resolved "https://registry.yarnpkg.com/@nivo/scatterplot/-/scatterplot-0.33.0.tgz#5cca6bc313092fd81a3fe5310a4e33f780d6533c"
+  resolved "https://registry.yarnpkg.com/@juristat/scatterplot/-/scatterplot-0.33.0.tgz#5cca6bc313092fd81a3fe5310a4e33f780d6533c"
   dependencies:
-    "@nivo/core" "0.33.0"
-    "@nivo/legends" "0.33.0"
+    "@juristat/core" "0.33.0"
+    "@juristat/legends" "0.33.0"
     d3-scale "^1.0.6"
     d3-shape "^1.2.0"
     react-motion "^0.5.2"
     recompose "^0.26.0"
 
-"@nivo/stream@0.33.0":
+"@juristat/stream@0.33.0":
   version "0.33.0"
-  resolved "https://registry.yarnpkg.com/@nivo/stream/-/stream-0.33.0.tgz#bfa84d44e71a15e0ea5585bbe6ea0580c41e2964"
+  resolved "https://registry.yarnpkg.com/@juristat/stream/-/stream-0.33.0.tgz#bfa84d44e71a15e0ea5585bbe6ea0580c41e2964"
   dependencies:
-    "@nivo/core" "0.33.0"
-    "@nivo/legends" "0.33.0"
+    "@juristat/core" "0.33.0"
+    "@juristat/legends" "0.33.0"
     d3-format "^1.2.0"
     d3-scale "^1.0.6"
     d3-shape "^1.2.0"
     recompose "^0.26.0"
 
-"@nivo/sunburst@0.33.0":
+"@juristat/sunburst@0.33.0":
   version "0.33.0"
-  resolved "https://registry.yarnpkg.com/@nivo/sunburst/-/sunburst-0.33.0.tgz#b8d7ca9ce4190ee4b89a6dc0560bb935edfa6c3c"
+  resolved "https://registry.yarnpkg.com/@juristat/sunburst/-/sunburst-0.33.0.tgz#b8d7ca9ce4190ee4b89a6dc0560bb935edfa6c3c"
   dependencies:
-    "@nivo/core" "0.33.0"
+    "@juristat/core" "0.33.0"
     d3-hierarchy "^1.1.5"
     d3-shape "^1.2.0"
     react-motion "^0.5.2"
     recompose "^0.26.0"
 
-"@nivo/treemap@0.33.0":
+"@juristat/treemap@0.33.0":
   version "0.33.0"
-  resolved "https://registry.yarnpkg.com/@nivo/treemap/-/treemap-0.33.0.tgz#7d5ca635a10e9af294baa09da1a8ee6d26e34185"
+  resolved "https://registry.yarnpkg.com/@juristat/treemap/-/treemap-0.33.0.tgz#7d5ca635a10e9af294baa09da1a8ee6d26e34185"
   dependencies:
-    "@nivo/core" "0.33.0"
+    "@juristat/core" "0.33.0"
     d3-hierarchy "^1.1.5"
     react-motion "^0.5.2"
     recompose "^0.26.0"
 
-"@nivo/voronoi@0.33.0":
+"@juristat/voronoi@0.33.0":
   version "0.33.0"
-  resolved "https://registry.yarnpkg.com/@nivo/voronoi/-/voronoi-0.33.0.tgz#45647555741940d35dbdce512825b8a60ca0493a"
+  resolved "https://registry.yarnpkg.com/@juristat/voronoi/-/voronoi-0.33.0.tgz#45647555741940d35dbdce512825b8a60ca0493a"
   dependencies:
-    "@nivo/core" "0.33.0"
+    "@juristat/core" "0.33.0"
     d3-voronoi "^1.1.2"
     recompose "^0.26.0"
 

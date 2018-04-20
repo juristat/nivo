@@ -9,7 +9,7 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import MediaQuery from 'react-responsive'
-import { ResponsiveScatterPlotCanvas, ScatterPlotDefaultProps } from '@nivo/scatterplot'
+import { ResponsiveScatterPlotCanvas, ScatterPlotDefaultProps } from '@juristat/nivo-scatterplot'
 import ChartHeader from '../../ChartHeader'
 import ChartTabs from '../../ChartTabs'
 import ScatterPlotControls from './ScatterPlotControls'
@@ -130,7 +130,7 @@ export default class ScatterPlotCanvas extends Component {
             {
                 ...mappedSettings,
             },
-            { pkg: '@nivo/scatterplot', defaults: ScatterPlotDefaultProps }
+            { pkg: '@juristat/scatterplot', defaults: ScatterPlotDefaultProps }
         )
 
         const header = <ChartHeader chartClass="ScatterPlotCanvas" tags={['basic', 'canvas']} />

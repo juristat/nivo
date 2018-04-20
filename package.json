@@ -1,6 +1,6 @@
 {
-  "name": "nivo",
-  "version": "0.31.0",
+  "name": "@juristat/nivo",
+  "version": "0.31.1+juristat.1",
   "licenses": [
     {
       "type": "MIT",
@@ -9,7 +9,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/plouc/nivo"
+    "url": "git://github.com/juristat/nivo"
   },
   "author": {
     "name": "Raphaël Benitte",

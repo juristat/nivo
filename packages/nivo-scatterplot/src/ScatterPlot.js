@@ -8,9 +8,9 @@
  */
 import React from 'react'
 import { TransitionMotion, spring } from 'react-motion'
-import { Container, SvgWrapper } from '@nivo/core'
-import { Grid, Axes } from '@nivo/core'
-import { BoxLegendSvg } from '@nivo/legends'
+import { Container, SvgWrapper } from '@juristat/nivo-core'
+import { Grid, Axes } from '@juristat/nivo-core'
+import { BoxLegendSvg } from '@juristat/nivo-legends'
 import setDisplayName from 'recompose/setDisplayName'
 import enhance from './enhance'
 import { ScatterPlotPropTypes } from './props'

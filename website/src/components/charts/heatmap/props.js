@@ -9,7 +9,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import dedent from 'dedent-js'
-import { HeatMapDefaultProps as defaults } from '@nivo/heatmap'
+import { HeatMapDefaultProps as defaults } from '@juristat/nivo-heatmap'
 import {
     marginProperties,
     axesProperties,

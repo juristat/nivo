@@ -13,7 +13,7 @@ import MediaQuery from 'react-responsive'
 import ChartHeader from '../../ChartHeader'
 import ChartTabs from '../../ChartTabs'
 import PieControls from './PieControls'
-import { ResponsivePie, PieDefaultProps } from '@nivo/pie'
+import { ResponsivePie, PieDefaultProps } from '@juristat/nivo-pie'
 import generateCode from '../../../lib/generateChartCode'
 import ComponentPropsDocumentation from '../../properties/ComponentPropsDocumentation'
 import properties from './props'
@@ -51,7 +51,7 @@ export default class Pie extends Component {
         const mappedSettings = propsMapper(settings)
 
         const code = generateCode('ResponsivePie', mappedSettings, {
-            pkg: '@nivo/pie',
+            pkg: '@juristat/pie',
             defaults: PieDefaultProps,
         })
 

@@ -1,6 +1,6 @@
-# `@nivo/treemap`
+# `@juristat/treemap`
 
-[![version](https://img.shields.io/npm/v/@nivo/treemap.svg?style=flat-square)](https://www.npmjs.com/package/@nivo/treemap)
+[![version](https://img.shields.io/npm/v/@juristat/treemap.svg?style=flat-square)](https://www.npmjs.com/package/@juristat/treemap)
 
 ## TreeMap
 

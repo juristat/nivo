@@ -9,7 +9,7 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import MediaQuery from 'react-responsive'
-import { ResponsiveScatterPlot, ScatterPlotDefaultProps } from '@nivo/scatterplot'
+import { ResponsiveScatterPlot, ScatterPlotDefaultProps } from '@juristat/nivo-scatterplot'
 import config from '../../../config'
 import ChartHeader from '../../ChartHeader'
 import ChartTabs from '../../ChartTabs'
@@ -133,7 +133,7 @@ export default class ScatterPlot extends Component {
             {
                 ...mappedSettings,
             },
-            { pkg: '@nivo/scatterplot', defaults: ScatterPlotDefaultProps }
+            { pkg: '@juristat/scatterplot', defaults: ScatterPlotDefaultProps }
         )
 
         const header = <ChartHeader chartClass="ScatterPlot" tags={['basic', 'isomorphic']} />

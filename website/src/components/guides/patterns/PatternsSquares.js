@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import classNames from 'classnames'
 import CollapsibleCard from '../../CollapsibleCard'
 import ComponentPropList from '../../properties/ComponentPropsList'
-import { Defs, patternSquaresDef, PatternSquares } from '@nivo/core'
+import { Defs, patternSquaresDef, PatternSquares } from '@juristat/nivo-core'
 
 const SAMPLE_SIZE = 120
 

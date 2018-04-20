@@ -9,8 +9,8 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import MediaQuery from 'react-responsive'
-import { patternDotsDef, patternLinesDef } from '@nivo/core'
-import { ResponsiveBar, BarDefaultProps } from '@nivo/bar'
+import { patternDotsDef, patternLinesDef } from '@juristat/nivo-core'
+import { ResponsiveBar, BarDefaultProps } from '@juristat/nivo-bar'
 import ChartHeader from '../../ChartHeader'
 import ChartTabs from '../../ChartTabs'
 import BarControls from './BarControls'
@@ -171,7 +171,7 @@ export default class Bar extends Component {
                 keys,
                 ...mappedSettings,
             },
-            { pkg: '@nivo/bar', defaults: BarDefaultProps }
+            { pkg: '@juristat/bar', defaults: BarDefaultProps }
         )
 
         const header = <ChartHeader chartClass="Bar" tags={['basic', 'isomorphic', 'api']} />

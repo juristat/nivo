@@ -1,5 +1,5 @@
 import React from 'react'
-import { BoxLegendSvg } from '@nivo/legends'
+import { BoxLegendSvg } from '@juristat/nivo-legends'
 
 const legendProps = {
     containerWidth: 800,

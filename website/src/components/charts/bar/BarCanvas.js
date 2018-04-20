@@ -9,7 +9,7 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import MediaQuery from 'react-responsive'
-import { ResponsiveBarCanvas } from '@nivo/bar'
+import { ResponsiveBarCanvas } from '@juristat/nivo-bar'
 import ChartHeader from '../../ChartHeader'
 import ChartTabs from '../../ChartTabs'
 import BarControls from './BarControls'
@@ -138,7 +138,7 @@ export default class BarCanvas extends Component {
                 keys,
                 ...mappedSettings,
             },
-            { pkg: '@nivo/bar' }
+            { pkg: '@juristat/bar' }
         )
 
         const header = <ChartHeader chartClass="BarCanvas" tags={['bar', 'canvas']} />

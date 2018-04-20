@@ -1,6 +1,6 @@
-# `@nivo/voronoi`
+# `@juristat/voronoi`
 
-[![version](https://img.shields.io/npm/v/@nivo/voronoi.svg?style=flat-square)](https://www.npmjs.com/package/@nivo/voronoi)
+[![version](https://img.shields.io/npm/v/@juristat/voronoi.svg?style=flat-square)](https://www.npmjs.com/package/@juristat/voronoi)
 
 ## Voronoi
 

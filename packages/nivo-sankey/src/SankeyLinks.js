@@ -10,7 +10,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import pure from 'recompose/pure'
 import { sankeyLinkHorizontal } from 'd3-sankey'
-import { motionPropTypes, SmartMotion } from '@nivo/core'
+import { motionPropTypes, SmartMotion } from '@juristat/nivo-core'
 import SankeyLinksItem from './SankeyLinksItem'
 
 const getLinkPath = sankeyLinkHorizontal()

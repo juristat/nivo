@@ -1,6 +1,6 @@
-# `@nivo/radar`
+# `@juristat/radar`
 
-[![version](https://img.shields.io/npm/v/@nivo/radar.svg?style=flat-square)](https://www.npmjs.com/package/@nivo/radar)
+[![version](https://img.shields.io/npm/v/@juristat/radar.svg?style=flat-square)](https://www.npmjs.com/package/@juristat/radar)
 
 ## Radar
 

@@ -8,7 +8,7 @@
  */
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { BarDefaultProps as defaults } from '@nivo/bar'
+import { BarDefaultProps as defaults } from '@juristat/nivo-bar'
 import {
     marginProperties,
     axesProperties,

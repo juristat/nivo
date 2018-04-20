@@ -8,8 +8,8 @@
  */
 import PropTypes from 'prop-types'
 import { sankeyCenter, sankeyJustify, sankeyLeft, sankeyRight } from 'd3-sankey'
-import { noop } from '@nivo/core'
-import { LegendPropShape } from '@nivo/legends'
+import { noop } from '@juristat/nivo-core'
+import { LegendPropShape } from '@juristat/nivo-legends'
 
 export const sankeyAlignmentPropMapping = {
     center: sankeyCenter,

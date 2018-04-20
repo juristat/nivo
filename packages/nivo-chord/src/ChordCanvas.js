@@ -8,9 +8,9 @@
  */
 import React, { Component } from 'react'
 import { partial } from 'lodash'
-import { midAngle, getPolarLabelProps, degreesToRadians } from '@nivo/core'
-import { getRelativeCursor, getHoveredArc } from '@nivo/core'
-import { Container } from '@nivo/core'
+import { midAngle, getPolarLabelProps, degreesToRadians } from '@juristat/nivo-core'
+import { getRelativeCursor, getHoveredArc } from '@juristat/nivo-core'
+import { Container } from '@juristat/nivo-core'
 import { ChordPropTypes } from './props'
 import enhance from './enhance'
 import ChordArcTooltip from './ChordArcTooltip'

@@ -7,8 +7,8 @@
  * file that was distributed with this source code.
  */
 import PropTypes from 'prop-types'
-import { areaCurvePropType, stackOrderPropType, stackOffsetPropType } from '@nivo/core'
-import { LegendPropShape } from '@nivo/legends'
+import { areaCurvePropType, stackOrderPropType, stackOffsetPropType } from '@juristat/nivo-core'
+import { LegendPropShape } from '@juristat/nivo-legends'
 
 export const StreamPropTypes = {
     // data

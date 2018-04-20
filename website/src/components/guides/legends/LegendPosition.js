@@ -11,7 +11,7 @@ import {
     ANCHOR_BOTTOM_LEFT,
     ANCHOR_LEFT,
     ANCHOR_CENTER,
-} from '@nivo/legends'
+} from '@juristat/legends'
 
 const anchors = [
     ANCHOR_TOP_LEFT,

@@ -7,7 +7,7 @@
  * file that was distributed with this source code.
  */
 import React from 'react'
-import { ResponsiveWrapper } from '@nivo/core'
+import { ResponsiveWrapper } from '@juristat/nivo-core'
 import TreeMapHtml from './TreeMapHtml'
 
 export default props => (

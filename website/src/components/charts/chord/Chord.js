@@ -9,7 +9,7 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import MediaQuery from 'react-responsive'
-import { ResponsiveChord } from '@nivo/chord'
+import { ResponsiveChord } from '@juristat/nivo-chord'
 import ChartHeader from '../../ChartHeader'
 import ChartTabs from '../../ChartTabs'
 import ChordControls from './ChordControls'
@@ -109,7 +109,7 @@ export default class Chord extends Component {
             'ResponsiveChord',
             { keys, ...mappedSettings },
             {
-                pkg: '@nivo/chord',
+                pkg: '@juristat/chord',
                 dataKey: 'matrix',
             }
         )

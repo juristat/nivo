@@ -12,10 +12,16 @@ import defaultProps from 'recompose/defaultProps'
 import withPropsOnChange from 'recompose/withPropsOnChange'
 import withStateHandlers from 'recompose/withStateHandlers'
 import pure from 'recompose/pure'
-import { withHierarchy, withDimensions, withTheme, withMotion, withColors } from '@nivo/core'
-import { getAccessorFor, getLabelGenerator } from '@nivo/core'
-import { getInheritedColorGenerator } from '@nivo/core'
-import { bindDefs } from '@nivo/core'
+import {
+    withHierarchy,
+    withDimensions,
+    withTheme,
+    withMotion,
+    withColors,
+} from '@juristat/nivo-core'
+import { getAccessorFor, getLabelGenerator } from '@juristat/nivo-core'
+import { getInheritedColorGenerator } from '@juristat/nivo-core'
+import { bindDefs } from '@juristat/nivo-core'
 import { computeNodes, computeZoom } from './compute'
 import * as props from './props'
 

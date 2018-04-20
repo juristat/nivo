@@ -12,7 +12,7 @@ import {
     motionProperties,
     defsProperties,
 } from '../../../lib/componentProperties'
-import { TreeMapDefaultProps } from '@nivo/treemap'
+import { TreeMapDefaultProps } from '@juristat/nivo-treemap'
 
 const defaults = TreeMapDefaultProps
 

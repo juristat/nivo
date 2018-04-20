@@ -7,7 +7,7 @@
  * file that was distributed with this source code.
  */
 import PropTypes from 'prop-types'
-import { quantizeColorScalePropType } from '@nivo/core'
+import { quantizeColorScalePropType } from '@juristat/nivo-core'
 
 export const HeatMapPropTypes = {
     // data

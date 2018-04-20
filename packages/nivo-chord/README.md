@@ -1,6 +1,6 @@
-# `@nivo/chord`
+# `@juristat/chord`
 
-[![version](https://img.shields.io/npm/v/@nivo/chord.svg?style=flat-square)](https://www.npmjs.com/package/@nivo/chord)
+[![version](https://img.shields.io/npm/v/@juristat/chord.svg?style=flat-square)](https://www.npmjs.com/package/@juristat/chord)
 
 ## Chord
 

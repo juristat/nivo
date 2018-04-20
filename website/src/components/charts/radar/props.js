@@ -8,9 +8,9 @@
  */
 import React from 'react'
 import dedent from 'dedent-js'
-import { closedCurvePropKeys } from '@nivo/core'
-import { DotsItemDefaultProps as dotDefaults } from '@nivo/core'
-import { RadarDefaultProps as defaults, RadarDots } from '@nivo/radar'
+import { closedCurvePropKeys } from '@juristat/nivo-core'
+import { DotsItemDefaultProps as dotDefaults } from '@juristat/nivo-core'
+import { RadarDefaultProps as defaults, RadarDots } from '@juristat/nivo-radar'
 import { marginProperties, motionProperties } from '../../../lib/componentProperties'
 
 const dotsDefaults = RadarDots.defaultProps

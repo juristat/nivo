@@ -9,10 +9,10 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import { TransitionMotion, spring } from 'react-motion'
-import { motionPropTypes, getInheritedColorGenerator } from '@nivo/core'
-import { positionFromAngle } from '@nivo/core'
-import { getLabelGenerator } from '@nivo/core'
-import { DotsItem } from '@nivo/core'
+import { motionPropTypes, getInheritedColorGenerator } from '@juristat/nivo-core'
+import { positionFromAngle } from '@juristat/nivo-core'
+import { getLabelGenerator } from '@juristat/nivo-core'
+import { DotsItem } from '@juristat/nivo-core'
 
 export default class RadarDots extends Component {
     static propTypes = {

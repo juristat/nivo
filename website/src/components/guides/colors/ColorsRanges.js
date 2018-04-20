@@ -10,7 +10,7 @@ import {
     schemeSet2,
     schemeSet3,
 } from 'd3-scale-chromatic'
-import { defaultCategoricalColors } from '@nivo/core'
+import { defaultCategoricalColors } from '@juristat/nivo-core'
 
 const ColorsRanges = () => (
     <div className="guide__table">

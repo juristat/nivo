@@ -7,7 +7,7 @@
  * file that was distributed with this source code.
  */
 import React from 'react'
-import { SunburstDefaultProps as defaults } from '@nivo/sunburst'
+import { SunburstDefaultProps as defaults } from '@juristat/nivo-sunburst'
 import { marginProperties } from '../../../lib/componentProperties'
 
 export default [

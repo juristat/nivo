@@ -8,7 +8,7 @@
  */
 import React from 'react'
 import { voronoi as VoronoiGenerator } from 'd3-voronoi'
-import { Container, SvgWrapper } from '@nivo/core'
+import { Container, SvgWrapper } from '@juristat/nivo-core'
 import enhance from './enhance'
 import { VoronoiPropTypes } from './props'
 
