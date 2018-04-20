@@ -1,6 +1,6 @@
 {
   "name": "@juristat/nivo-core",
-  "version": "0.33.1+juristat.1",
+  "version": "0.33.1",
   "license": "MIT",
   "main": "./index.js",
   "files": [
